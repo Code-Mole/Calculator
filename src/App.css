@@ -1,0 +1,157 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #322f32;
+}
+
+.parent{
+  width:450px ;
+  border: 3px solid red;
+  background-color: #341d1d;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px red;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 100px;
+  position: relative;
+  z-index: 1;
+}
+.Input_field{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+}
+#Input{
+   width:159%;
+   height: 60px;
+   font-size: 40px;
+   /* flex: 1; */
+   border: none;
+   outline: none;
+   background-color: transparent;
+   /* cursor: none; */
+   display: flex;
+   justify-content: flex-end;
+   text-align: right;
+}
+
+/* #answer{
+  width: 50%;
+  height: 60px;
+  font-size: 30px;
+  position: relative;
+  left: 100px;
+  border: none;
+   outline: none;
+   background-color: transparent;
+} */
+.btn{
+  width: 100px;
+  height: 50px;
+  background-color: orange;
+  border: none;
+  border-radius: 20px; 
+  color: #000;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+}
+.btn1{
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  border: none;
+  border-radius: 20px; 
+  color: #000;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+}
+.keys_container{
+  border: #463f46 solid 2px;
+  padding: 20px 0;
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.Operatant{
+  width: 80%;
+  /* border: green solid 1px; */
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+/* .n7-n9 {
+  width: 35%;
+  
+}
+.n4-n6 {
+  width: 35%;
+  
+} */
+#key{
+  width: 100px;
+  height: 50px;
+  padding: 5px 40px;
+  margin: 5px 0;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+#key:hover{
+  background-color: rgb(51, 41, 41);
+  border:2px solid black ;
+}
+#key1{
+  width: 95px;
+  height: 50px;
+  padding: 1px 40px ;
+  margin: 1px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #463f46;
+  font-size: 40px;
+  color: orange;
+  cursor: pointer;
+}
+/* #key1:hover{
+  background-color: rgb(21, 34, 34);
+  border:1px solid #fff ;
+} */
+/* .n7-n9 {
+  width: 30%;
+  
+} */
+
+#keyFun{
+  width: 100px;
+  height: 50px;
+  margin-top: 5px;
+  padding: 1px 40px ;
+  border-radius: 20px;
+  background-color: orange;
+  font-size: 40px;
+  color: #000;
+  cursor: pointer;
+}
+.text{
+  color: rgb(221, 157, 157);
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-style: italic;
+  margin-left: 40px;
+}
+#mole{
+  color:rgb(221, 157, 157);
+}
